@@ -11,6 +11,7 @@ function TodoList() {
     const [allTodos, setAllTodos] = useState([])
     const [titulo, setTitulo] = useState('');
     const [descricao, setDescricao] = useState('');
+    const [inputSearch, setInputSearch] = useState('');
 
     //
     function handleAddTodo() {
@@ -54,6 +55,10 @@ function TodoList() {
 
     }, [])
 
+
+    //pesquisando item
+    const filteAllTodos = allTodos.filter(item => item.titulo.toLowerCase().includes(inputSearch.toLowerCase()))
+
     return (
         <div className='app' >
             
@@ -87,11 +92,18 @@ function TodoList() {
                     {/* <button className={`secondaryBtn ${isCompleteScreen === false && 'active'}`} onClick={() => setIsCompleteScreen(false)} >Todo</button>
                     <button className={`secondaryBtn ${isCompleteScreen === true && 'active'}`} onClick={() => setIsCompleteScreen(true)}  >Complemento</button> */}
                     <button className={`secondaryBtn ${isCompleteScreen === false && 'active'}`}><IoSearch /></button>
-                    <input className='inputPesq' type="search" name="pesquisr" placeholder='Pesquisar' />
+                    <input 
+                        className='inputPesq' 
+                        type="search" 
+                        name="pesquisr" 
+                        placeholder='Pesquisar' 
+                        value={inputSearch}
+                        onChange={(e)=> setInputSearch(e.target.value)}
+                        />
                 </div>
 
                 <div className='todo-list' >
-                    {allTodos.map((item, index) => {
+                    {filteAllTodos.map((item, index) => {
 
                         return (
                             <div key={index} className='todo-list-item'  >
