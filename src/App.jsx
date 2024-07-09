@@ -1,12 +1,16 @@
 
-import './App.css'
+import './App.css';
+
+import TodoList from './components/TodoList';
+import Header from './components/Header';
 
 function App() {
 
   return (
-    <div>
-      <h1>Olá</h1>
-    </div>
+    <>
+      <Header />
+      <TodoList />
+    </>
   )
 }
 

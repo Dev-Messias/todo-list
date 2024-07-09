@@ -1,8 +1,50 @@
-# React + Vite
+# Todo-List
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img src="https://github.com/Dev-Messias/todo-list/blob/main/src/assets/react.telaApp.png" alt="App-Todo-list">
 
-Currently, two official plugins are available:
+> Ativide para o curso Geração tech, criar uma aplicação React para adicionar e remover tarefas.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ ## Tecnologias Utilizadas :
+
+ <div style="display: inline_block" >
+    <img align="center" alt="" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" />
+    <img align="center" alt="" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" />
+    <img  align="center" alt="React" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+    <img align="center" alt="React" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
+    <img align="center" alt="React" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" />
+   
+</div>
+
+
+
+## Como executar o projeto
+
+1. Clone do repositório :
+
+```
+
+$ git clone https://github.com/Dev-Messias/todo-list.git
+
+```
+> Acesse a página utilizando `cd todo-list`
+
+2. Instale as dependências :
+
+```
+
+$ npm install
+
+```
+
+3. Inicie o projeto :
+
+
+```
+
+$ npm run dev
+
+```
+
+
+
+ 

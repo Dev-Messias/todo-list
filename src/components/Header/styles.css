@@ -1,0 +1,11 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 8px;
+    background-color: rgb(71, 71, 71);
+}
+
+.textsp{
+    color: rgb(0, 230, 122);;
+}
