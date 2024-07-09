@@ -1,6 +1,6 @@
 # Todo-List
 
-<img src="https://github.com/Dev-Messias/todo-list/blob/main/src/assets/react.telaApp.png" alt="App-Todo-list">
+<img src="https://github.com/Dev-Messias/todo-list/blob/main/src/assets/telaApp.png?raw=true" alt="App-Todo-list">
 
 > Ativide para o curso Geração tech, criar uma aplicação React para adicionar e remover tarefas.
 
